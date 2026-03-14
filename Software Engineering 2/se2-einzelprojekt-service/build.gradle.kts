@@ -36,3 +36,6 @@ tasks.withType<Test> {
 kotlin {
     jvmToolchain(21)
 }
+springBoot {
+    mainClass = "at.aau.serg.SpringAppKt"
+}
