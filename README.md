@@ -17,10 +17,6 @@ Each branch represents a different semester or academic year. To access any spec
     <td>❄️ Winter 2025</td>
     <td align="center"><a href="https://github.com/mav42/uni-individual-projects/tree/w25">winter-25</a></td>
   </tr>
-  <tr>
-    <td>☀️ Summer 2026</td>
-    <td align="center"><a href="https://github.com/mav42/uni-individual-projects/tree/s26">summer-26</a></td>
-  </tr>
 </table>
 
 
@@ -68,6 +64,6 @@ git reset --soft HEAD~1  # Removes the last commit but keeps changes
 
 ## Additional Resources  
 
-- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)  
-- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)  
+- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [How to Use Git Branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
