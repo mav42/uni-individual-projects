@@ -75,4 +75,22 @@ class GameResultControllerTests {
 
         verify(mockedService).addGameResult(gameResult)
     }
+
+    @Test
+    fun test_deleteGameResult_callsService() {
+        whenever(mockedService.deleteGameResult(1)).thenReturn(true)
+
+        controller.deleteGameResult(1)
+
+        verify(mockedService).deleteGameResult(1)
+    }
+
+    @Test
+    fun test_deleteGameResult_nonexistentId_callsService() {
+        whenever(mockedService.deleteGameResult(999)).thenReturn(false)
+
+        controller.deleteGameResult(999)
+
+        verify(mockedService).deleteGameResult(999)
+    }
 }
