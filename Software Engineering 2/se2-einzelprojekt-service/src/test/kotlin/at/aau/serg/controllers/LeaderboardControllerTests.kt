@@ -151,7 +151,6 @@ class LeaderboardControllerTests {
 
         verify(mockedService).getGameResults()
         assertEquals("Rank is invalid.", resBody)
-        // ranks before targeted rank
         assertEquals(HttpStatus.BAD_REQUEST, resStatus)
     }
 }
