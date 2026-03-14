@@ -64,6 +64,6 @@ git reset --soft HEAD~1  # Removes the last commit but keeps changes
 
 ## Additional Resources  
 
-- 🔹 [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)  
-- 🔹 [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)  
-- 🔹 [How to Use Git Branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)  
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)  
+- [How to Use Git Branches](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
